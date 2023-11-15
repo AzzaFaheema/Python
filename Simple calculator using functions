@@ -1,0 +1,67 @@
+def add(x,y):
+    return x+y
+def sub(x,y):
+    return x-y
+def multiply(x,y):
+    return x*y
+def div(x,y):
+    return x/y
+n1=int(input("Enter number 1: "))
+n2=int(input("Enter number 2: "))
+print("Select operation")
+print("1.Add")
+print("2.Subtract")
+print("3.Multiply")
+print("4.Divide")
+choice=int(input("Enter choice: "))
+if choice==1:
+    print(n1,"+",n2,"=",add(n1,n2))
+elif choice==2:
+    print(n1,"-",n2,"=",sub(n1,n2))
+elif choice==3:
+    print(n1,"*",n2,"=",multiply(n1,n2))
+elif choice==4:
+    print(n1,"/",n2,"=",div(n1,n2))
+else:
+    print("Invalid")
+
+OUTPUT
+Enter number 1: 4
+Enter number 2: 6
+Select operation
+1.Add
+2.Subtract
+3.Multiply
+4.Divide
+Enter choice: 1
+4 + 6 = 10
+
+Enter number 1: 8
+Enter number 2: 6
+Select operation
+1.Add
+2.Subtract
+3.Multiply
+4.Divide
+Enter choice: 2
+8 - 6 = 2
+
+Enter number 1: 4
+Enter number 2: 6
+Select operation
+1.Add
+2.Subtract
+3.Multiply
+4.Divide
+Enter choice: 3
+4 * 6 = 24
+
+Enter number 1: 8
+Enter number 2: 2
+Select operation
+1.Add
+2.Subtract
+3.Multiply
+4.Divide
+Enter choice: 4
+8 / 2 = 4.0
