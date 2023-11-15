@@ -1,0 +1,13 @@
+def power(n,exp):
+    if(exp==0):
+        return 1
+    else:
+        return(n*power(n,exp-1))
+n=int(input("Enter the number:"))
+exp=int(input("Enter the exponential value:"))
+print("Result:",power(n,exp))
+
+OUTPUT
+Enter the number:4
+Enter the exponential value:2
+Result: 16
