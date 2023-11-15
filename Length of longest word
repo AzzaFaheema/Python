@@ -1,0 +1,10 @@
+n=input("Enter list of words:")
+word=n.split()
+long=max(word,key=len)
+print("longest word is ",long)
+print("length:", len(long))
+
+OUTPUT
+Enter list of words:python programs
+longest word is  programs
+length: 8
