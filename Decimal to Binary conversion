@@ -1,0 +1,10 @@
+def dtob(num):
+    if(num>=1):
+        dtob(num//2)
+        print(num%2,end=" ")
+num=int(input("Enter value:"))
+print(dtob(num))
+
+OUTPUT
+Enter value:8
+1 0 0 0 None
