@@ -1,0 +1,9 @@
+string=input("Enter string:")
+count=0
+for i in range(0,len(string)):
+    count=count+1
+print("Number of characters=",count)  
+
+OUTPUT
+Enter string:english
+Number of characters= 7
