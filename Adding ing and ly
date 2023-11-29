@@ -1,0 +1,19 @@
+string=input("Enter string:")
+if string.endswith("ing"):
+    print(string+"ly")
+elif string.endswith("ly"):
+    print(string+"ing")
+else:
+    print(string+"ing")
+    print(string+"ly")
+
+OUTPUT
+Enter string:sing
+singly
+
+Enter string:reply
+replying
+
+Enter string:cook
+cooking
+cookly
