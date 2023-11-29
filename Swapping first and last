@@ -1,0 +1,7 @@
+string=input("Enter a string:")
+swapped_string=string[-1]+string[1:-1]+string[0]
+print("Swapped String is", swapped_string)
+
+OUTPUT
+Enter a string:abcde
+Swapped String is ebcda
