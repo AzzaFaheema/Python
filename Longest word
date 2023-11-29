@@ -1,0 +1,14 @@
+list=["aysha","azza","sandra"]
+long=0
+for i in list:
+    b=len(i)
+    if(b>long):
+        long=b
+        word=i
+print("Longest word is",word)
+print("Length of this word is",long)
+
+OUTPUT
+
+Longest word is sandra
+Length of this word is 6
