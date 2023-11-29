@@ -1,0 +1,10 @@
+str=input("Enter a string:")
+k="$"
+new_string=str[0]+str[1: ].replace(str[0],k)
+print(new_string)
+
+OUTPUT
+
+Enter a string:aishwarya
+aishw$ry$
+​
