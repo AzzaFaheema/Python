@@ -7,7 +7,20 @@ else:
     print(string+"ing")
     print(string+"ly")
 
+Another method:
+
+string=input("Enter string:")
+if(string[-3: ]=="ing"):
+    print(string+"ly")
+elif(string[-2: ]=="ly"):
+    print(string+"ing")
+else:
+    print(string+"ing")
+    print(string+"ly")
+
+
 OUTPUT
+
 Enter string:sing
 singly
 
