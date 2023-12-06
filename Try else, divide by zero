@@ -1,0 +1,21 @@
+a=int(input("Enter the number"))
+b=int(input("Enter the number"))
+try:
+    c=a/b
+    print("Result",c)
+except:
+       print("can't divide by zero")
+else:
+     print("hi")
+
+OUTPUT
+
+Enter the number4
+Enter the number3
+Result 1.3333333333333333
+hi
+
+Enter the number6
+Enter the number0
+can't divide by zero
+​
