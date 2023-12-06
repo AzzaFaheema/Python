@@ -1,0 +1,16 @@
+n=int(input("Enter number of lines\n"))
+f1=open("file1.txt","r")
+print("First",n,"lines of the file is:")
+for i in range(n):
+    print(f1.readline().strip())
+
+OUTPUT
+
+Enter number of lines
+4
+First 4 lines of the file is:
+hi
+hello
+hello all
+hey
+​
