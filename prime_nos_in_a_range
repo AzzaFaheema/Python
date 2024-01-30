@@ -1,0 +1,10 @@
+lb=int(input("\n Enter lb: "))
+ub=int(input("\n Enter ub: "))
+for i in range(lb,ub+1):
+  if i>1:
+    for j in range(2,i):
+      if(i%j)==0:
+        break
+    else:
+      print(i) 
+      
